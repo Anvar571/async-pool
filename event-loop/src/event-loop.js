@@ -1,8 +1,8 @@
-import { CallStack } from "./call-backs";
-import { IO } from "./io";
-import { MicroTaskQueue } from "./mirotask";
-import { TaskQueue } from "./task-queue";
-import { Timers } from "./timers";
+import { CallStack } from "./call-backs.js";
+import { IO } from "./io.js";
+import { MicroTaskQueue } from "./mirotask.js";
+import { TaskQueue } from "./task-queue.js";
+import { Timers } from "./timers.js";
 
 export class EventLoop {
     constructor() {

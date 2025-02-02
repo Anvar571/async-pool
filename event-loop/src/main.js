@@ -1,4 +1,4 @@
-import { EventLoop } from "./event-loop";
+import { EventLoop } from "./event-loop.js";
 
 const eventLoop = new EventLoop();
 
